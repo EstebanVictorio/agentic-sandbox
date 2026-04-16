@@ -178,39 +178,8 @@ Add lint scripts to `package.json`:
 
 ## Step 7 — CSS / styling baseline
 
-Create `src/index.css` with a CSS reset and design tokens:
+Always install and configure latest Tailwind version
 
-```css
-/* ── Reset ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { font-size: 16px; -webkit-text-size-adjust: 100%; }
-body { line-height: 1.5; -webkit-font-smoothing: antialiased; }
-img, picture, video, canvas, svg { display: block; max-width: 100%; }
-input, button, textarea, select { font: inherit; }
-
-/* ── Design tokens ── */
-:root {
-  --color-primary: hsl(230 70% 55%);
-  --color-primary-dark: hsl(230 70% 45%);
-  --color-surface: hsl(0 0% 100%);
-  --color-bg: hsl(220 20% 97%);
-  --color-text: hsl(220 15% 15%);
-  --color-muted: hsl(220 10% 55%);
-  --color-border: hsl(220 15% 88%);
-
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 16px;
-  --shadow-sm: 0 1px 3px hsl(0 0% 0% / 0.08);
-  --shadow-md: 0 4px 12px hsl(0 0% 0% / 0.12);
-}
-
-body {
-  font-family: var(--font-sans);
-  background: var(--color-bg);
-  color: var(--color-text);
-}
 ```
 
 Import Inter from Google Fonts by adding the following `<link>` to `index.html` inside `<head>`:
