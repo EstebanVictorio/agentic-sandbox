@@ -179,6 +179,7 @@ Add lint scripts to `package.json`:
 ## Step 7 — CSS / styling baseline
 
 Always install and configure latest Tailwind version
+
 ---
 
 ## Step 8 — Environment variables
