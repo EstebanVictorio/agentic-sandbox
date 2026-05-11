@@ -237,28 +237,18 @@ yarn dev
 
 ---
 
-## Step 10 — Start dev server and verify
-
-```bash
-yarn dev
-```
-
-Open the browser and confirm the Vite default page loads without errors.
-
----
-
-## Step 11 — Strip the default boilerplate UI
+## Step 10 — Strip the default boilerplate UI
 
 Now that the pristine app is verified, remove all default Vite/React demo content and replace it with a minimal Hello World.
 
-### 11a — Delete the bundled SVG icons
+### 10a — Delete the bundled SVG icons
 
 ```bash
 rm src/assets/react.svg
 rm public/vite.svg
 ```
 
-### 11b — Replace `src/App.css`
+### 10b — Replace `src/App.css`
 
 Overwrite the file with an empty placeholder (styles will be added per-project as needed):
 
@@ -266,7 +256,7 @@ Overwrite the file with an empty placeholder (styles will be added per-project a
 /* App styles */
 ```
 
-### 11c — Replace `src/App.tsx`
+### 10c — Replace `src/App.tsx`
 
 Replace the entire file with:
 
@@ -281,15 +271,6 @@ function App() {
 
 export default App
 ```
-
-### 11d — Verify the result
-
-The browser (with the dev server still running from Step 10) should hot-reload and display only:
-
-> **Hello World from React and Vite with TypeScript**
-
-No icons, no counter, no Vite/React logos. If the page renders cleanly, the setup is complete.
-
 ---
 
 ## Notes & Conventions
