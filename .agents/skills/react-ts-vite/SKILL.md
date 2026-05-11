@@ -226,6 +226,7 @@ yarn dev
 ```
 
 ## Available Scripts
+
 | Command | Description |
 |---------|-------------|
 | `yarn dev` | Start dev server |
@@ -233,7 +234,7 @@ yarn dev
 | `yarn preview` | Preview production build locally |
 | `yarn lint` | Run ESLint |
 | `yarn format` | Format with Prettier |
-```
+
 
 ---
 
@@ -250,6 +251,8 @@ rm src/assets/react.svg
 rm public/vite.svg
 ```
 
+---
+
 ### 10b — Replace `src/App.css`
 
 Overwrite the file with an empty placeholder (styles will be added per-project as needed):
@@ -257,6 +260,8 @@ Overwrite the file with an empty placeholder (styles will be added per-project a
 ```css
 /* App styles */
 ```
+
+---
 
 ### 10c — Replace `src/App.tsx`
 
