@@ -241,6 +241,8 @@ yarn dev
 
 Now that the pristine app is verified, remove all default Vite/React demo content and replace it with a minimal Hello World.
 
+---
+
 ### 10a — Delete the bundled SVG icons
 
 ```bash
